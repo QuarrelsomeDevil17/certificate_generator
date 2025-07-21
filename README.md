@@ -100,10 +100,11 @@ canvas.add(title);
 ```
 
 ## 📷 Screenshot
-![Screenshot](screenshot.png)
+![Screenshot1](screenshots/s1.png)
+![Screenshot2](screenshots/s2.png)
+![Screenshot3](screenshots/s3.png)
 
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 certificate_generator/
@@ -114,7 +115,7 @@ certificate_generator/
 └── README.md          # Documentation
 ```
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Dependencies
 - **Fabric.js**: Canvas manipulation library
@@ -126,7 +127,7 @@ certificate_generator/
 - Format: PNG/PDF export
 - High-resolution output
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Design Templates
 ```javascript
