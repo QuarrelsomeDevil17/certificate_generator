@@ -1,0 +1,58 @@
+{
+  "name": "certificate-generator-canvas",
+  "version": "1.0.0",
+  "description": "Generate beautiful certificates using Canvas.js and AI - powered by Fabric.js with multiple design templates",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "certificate-generator",
+    "canvas.js",
+    "fabric.js",
+    "ai",
+    "openai",
+    "llm",
+    "certificates",
+    "pdf-export",
+    "image-export",
+    "web-app"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "fabric": "^5.3.0",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "bugs": {
+    "url": "."
+  },
+  "homepage": ".",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "features": [
+    "Generate 5 different certificate designs",
+    "Canvas.js implementation using Fabric.js",
+    "Multiple design templates (Modern, Classic, Elegant, Tech, Creative)",
+    "PDF and PNG export functionality",
+    "Copy Canvas.js code for each design",
+    "OpenAI API integration ready",
+    "Responsive design",
+    "Real-time preview"
+  ]
+}
